@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate.Extension", "ProjectTemplate.Extension\ProjectTemplate.Extension.csproj", "{CCE870F3-0D44-4B7C-9550-C7A01534DA76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate.Dto", "ProjectTemplate.Dto\ProjectTemplate.Dto.csproj", "{BB51FF1E-EDB7-40BD-94B7-323CC93F9F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate.Dal", "ProjectTemplate.Dal\ProjectTemplate.Dal.csproj", "{508BA941-0961-4D70-9365-4F3C1AED21C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate.Bll", "ProjectTemplate.Bll\ProjectTemplate.Bll.csproj", "{D84C4CE8-F458-4AE5-B718-37EF7FB409E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F549155D-EA0E-4BFE-9F1D-DCD566FD06F8}"
+	ProjectSection(SolutionItems) = preProject
+		Root\ProjectTemplates\CSharp\1033\favicon.png = Root\ProjectTemplates\CSharp\1033\favicon.png
+		Root\ProjectTemplates\CSharp\1033\Root.vstemplate = Root\ProjectTemplates\CSharp\1033\Root.vstemplate
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCE870F3-0D44-4B7C-9550-C7A01534DA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE870F3-0D44-4B7C-9550-C7A01534DA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE870F3-0D44-4B7C-9550-C7A01534DA76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB51FF1E-EDB7-40BD-94B7-323CC93F9F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB51FF1E-EDB7-40BD-94B7-323CC93F9F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB51FF1E-EDB7-40BD-94B7-323CC93F9F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB51FF1E-EDB7-40BD-94B7-323CC93F9F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508BA941-0961-4D70-9365-4F3C1AED21C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508BA941-0961-4D70-9365-4F3C1AED21C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508BA941-0961-4D70-9365-4F3C1AED21C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508BA941-0961-4D70-9365-4F3C1AED21C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84C4CE8-F458-4AE5-B718-37EF7FB409E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84C4CE8-F458-4AE5-B718-37EF7FB409E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84C4CE8-F458-4AE5-B718-37EF7FB409E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84C4CE8-F458-4AE5-B718-37EF7FB409E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BDDC39F-AEE5-42D5-8E7C-FF350EE25D95}
+	EndGlobalSection
+EndGlobal
