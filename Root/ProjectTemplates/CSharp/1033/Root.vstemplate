@@ -26,4 +26,8 @@
       </ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>ProjectTemplate.Wizard, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=99393309c8043fa1</Assembly>
+<FullClassName>ProjectTemplate.Wizard.MainWizard</FullClassName>
+  </WizardExtension>
 </VSTemplate>

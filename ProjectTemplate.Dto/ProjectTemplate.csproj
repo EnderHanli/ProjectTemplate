@@ -42,10 +42,14 @@
  		$endif$
 		<Reference Include="System.Data"/>
 		<Reference Include="System.Xml"/>
+    <Reference Include="System.Runtime.Serialization"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="Properties\AssemblyInfo.cs" />
 	</ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="Appendesk">
       <HintPath>..\lib\Appendesk.dll</HintPath>
