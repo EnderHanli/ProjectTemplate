@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Base\" />
+    <Folder Include="UserDefined\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Appendesk" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<ProjectReference Include="..\$ext_safeprojectname$.Dto\$ext_safeprojectname$.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

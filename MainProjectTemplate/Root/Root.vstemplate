@@ -1,0 +1,36 @@
+﻿<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Appendesk Solution Template</Name>
+    <Description>Create Appendesk Solution Template</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Appendesk</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>favicon.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Dto" CopyParameters="true">
+        ProjectTemplate.Dto\ProjectTemplate.Dto.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Dal" CopyParameters="true">
+        ProjectTemplate.Dal\ProjectTemplate.Dal.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Bll" CopyParameters="true">
+        ProjectTemplate.Bll\ProjectTemplate.Bll.vstemplate
+      </ProjectTemplateLink>
+	  <ProjectTemplateLink ProjectName="$safeprojectname$.Api" CopyParameters="true">
+        ProjectTemplate.Api\ProjectTemplate.Api.vstemplate
+      </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>ProjectTemplate.Wizard, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=99393309c8043fa1</Assembly>
+<FullClassName>ProjectTemplate.Wizard.MainWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>
