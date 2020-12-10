@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-  <Metadata>
-    <Identity Id="Appendesk_Project_Template.5220c350-7682-4fc9-9991-6a4302705bcc" Version="1.0" Language="en-US" Publisher="Appendesk" />
-    <DisplayName>Appendesk Project Template</DisplayName>
-    <Description xml:space="preserve">Appendesk Project Template</Description>
-    <Icon>favicon.png</Icon>
-  </Metadata>
-  <Installation AllUsers="true">
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
-    <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" />
-    <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Pro" />
-  </Installation>
-  <Dependencies>
-    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.7.2,)" />
-  </Dependencies>
-  <Prerequisites>
-    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
-  </Prerequisites>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\AppendeskProjectTemplate.zip" />
-    <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="ProjectTemplate.Wizard" Path="|ProjectTemplate.Wizard|" AssemblyName="|ProjectTemplate.Wizard;AssemblyName|" />
-  </Assets>
+    <Metadata>
+        <Identity Id="Appendesk_Project_Template.5220c350-7682-4fc9-9991-6a4302705bcc" Version="1.0" Language="en-US" Publisher="Appendesk" />
+        <DisplayName>Appendesk Project Template</DisplayName>
+        <Description xml:space="preserve">Appendesk Project Template</Description>
+        <Icon>favicon.png</Icon>
+    </Metadata>
+    <Installation AllUsers="true">
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
+        <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" />
+        <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Pro" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.7.2,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+        <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="ProjectTemplate.Wizard" Path="|ProjectTemplate.Wizard|" AssemblyName="|ProjectTemplate.Wizard;AssemblyName|" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\AppendeskProjectTemplate.zip" />
+    </Assets>
 </PackageManifest>

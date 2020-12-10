@@ -82,6 +82,7 @@ namespace ProjectTemplate.Wizard
             }
 
             replacementsDictionary.Add("$solutionname$", _solutionName);
+            replacementsDictionary.Add("$safeprojectlowername$", replacementsDictionary["$safeprojectname$"].ToLower());
         }
 
         public bool ShouldAddProjectItem(string filePath)
