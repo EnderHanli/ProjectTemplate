@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>ProjectTemplate.Dal</Name>
-    <Description>Project Template Data Access Layer</Description>
+    <Name>Appendesk Data Access Layer</Name>
+    <Description>Appendesk Project Template Data Access Layer</Description>
     <ProjectType>CSharp</ProjectType>
 	<Hidden>true</Hidden>
     <ProjectSubType>
@@ -17,8 +17,14 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="ProjectTemplate.Dal.csproj" File="ProjectTemplate.Dal.csproj" ReplaceParameters="true">
-      <Folder Name="Base" TargetFolderName="Base" />
-      <Folder Name="UserDefined" TargetFolderName="UserDefined" />
+      <Folder Name="Base" TargetFolderName="Base">
+        <Folder Name="Class" TargetFolderName="Class" />
+        <Folder Name="Interface" TargetFolderName="Interface" />
+      </Folder>
+      <Folder Name="UserDefined" TargetFolderName="UserDefined">
+        <Folder Name="Class" TargetFolderName="Class" />
+        <Folder Name="Interface" TargetFolderName="Interface" />
+      </Folder>
     </Project>
   </TemplateContent>
 </VSTemplate>

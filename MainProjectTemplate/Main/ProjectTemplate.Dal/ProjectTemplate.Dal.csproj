@@ -5,8 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Base\" />
-    <Folder Include="UserDefined\" />
+    <Folder Include="Base\Class\" />
+    <Folder Include="Base\Interface\" />
+    <Folder Include="UserDefined\Class\" />
+    <Folder Include="UserDefined\Interface\" />
   </ItemGroup>
 
   <ItemGroup>
